@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     display: flex;
     padding: 50px 70px;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -35,7 +36,7 @@ ul {
 }
 
 li {
-    padding: 8px 100px;
+    padding: 8px 85px;
 }
 
 a {
@@ -55,8 +56,36 @@ a {
     padding-bottom: 15px;
     padding-right: 10px;
     border-right: 3px solid;
-    border-bottom: 3px solid;
     text-align: center;
+    
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#about-me img {
+max-height: 400px;
+display: flex;
+position: relative;
+border-radius: 50%;
+text-align: center;
+
+}
+
+#about-me div {
+    flex-wrap: wrap;
+    display: flex;
+    inline-size: 400px;
+    font-size: 23px;
+    line-height: 1.5;
+    color: var(--tertiary-color);
+    padding: 22px;
+    text-align: center;
+    
 }
 
 
@@ -65,11 +94,15 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: var(--primary-color);
+    flex-wrap: wrap;
 }
+
+
 
 #contact-me li {
     color: var(--tertiary-color);
     font-size: 22px;
+    padding: 60px;
 }
 
 #contact-me a {
