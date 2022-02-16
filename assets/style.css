@@ -44,6 +44,7 @@ a {
     color: var(--tertiary-color);
     font-size: 22px;
     font-style: italic;
+
 }
 
 .section-title {
@@ -64,4 +65,13 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: var(--primary-color);
+}
+
+#contact-me li {
+    color: var(--tertiary-color);
+    font-size: 22px;
+}
+
+#contact-me a {
+    text-decoration: underline;
 }
