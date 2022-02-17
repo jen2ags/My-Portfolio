@@ -125,3 +125,19 @@ text-align: center;
 #contact-me a {
     text-decoration: underline;
 }
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and  (max-width:768px) {
+    
+    header {
+        font-size: 1.25rem;
+}
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    body {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
