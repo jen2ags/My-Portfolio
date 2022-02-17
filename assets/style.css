@@ -45,7 +45,13 @@ a {
     color: var(--tertiary-color);
     font-size: 22px;
     font-style: italic;
+    text-decoration: underline;
 
+}
+
+header nav ul li a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .section-title {
@@ -64,6 +70,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
+    width: 100%;
     
 }
 
@@ -79,15 +86,19 @@ text-align: center;
 #about-me div {
     flex-wrap: wrap;
     display: flex;
-    inline-size: 400px;
-    font-size: 20px;
+    width: 400px;
+    font-size: 24px;
     line-height: 1.5;
     color: var(--tertiary-color);
     padding: 22px;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 80px;
     text-align: center;
+    inline-size: 700px;
+    align-items: center;
+    
     
 }
+
 
 #my-work {
     display: flex;
@@ -96,14 +107,16 @@ text-align: center;
 
 .large-tile img {
    width: 60%;
-   height: auto;
    padding: 15px;
+   border-radius: 50px;
 }
 
 .small-tiles img {
     width: 30%;
     padding: 15px;
+    border-radius: 50px;
 }
+
 
 
 
@@ -126,6 +139,11 @@ text-align: center;
     text-decoration: underline;
 }
 
+#contact-me ul li a:hover {
+    background-color: var(--secondary-color);
+color: var(--primary-color);
+}
+
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and  (max-width:768px) {
     
@@ -140,4 +158,8 @@ text-align: center;
         font-size: 1.5rem;
         line-height: 1.5;
     }
+    #about-me div {
+        width: 100;
+    }
 }
+
