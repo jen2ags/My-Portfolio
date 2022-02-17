@@ -8,7 +8,7 @@ A website that offers information about me and a way to provide my work for empl
 *CSS
 
 ## Website
-http://lernantino.github.io/run-buddy/
+https://jen2ags.github.io/My-Portfolio/
 
 ## Contribution
 Made with ❤️ by Jennifer Jennings
