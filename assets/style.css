@@ -64,7 +64,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
-    justify-content: space-between;
+    
 }
 
 #about-me img {
@@ -80,12 +80,29 @@ text-align: center;
     flex-wrap: wrap;
     display: flex;
     inline-size: 400px;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 1.5;
     color: var(--tertiary-color);
     padding: 22px;
+    margin: 0 0 0 50px;
     text-align: center;
     
+}
+
+#my-work {
+    display: flex;
+}
+
+
+.large-tile img {
+   width: 60%;
+   height: auto;
+   padding: 15px;
+}
+
+.small-tiles img {
+    width: 30%;
+    padding: 15px;
 }
 
 
